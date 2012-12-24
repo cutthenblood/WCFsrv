@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/RISIQueryService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/RISIQueryService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8733/RISIQueryService/meta?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="QueryData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FarmGroup" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id_goods" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Lform" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MNN" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Producer" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="values" nillable="true" type="q1:ArrayOfKeyValueOfstringstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="QueryData" nillable="true" type="tns:QueryData" />
+</xs:schema>

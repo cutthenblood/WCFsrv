@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="49d6c29e-8ac0-4c92-aa9f-4e2d0e40f90e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/RISIQueryService/meta" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="meta2.xsd" MetadataType="Schema" ID="56b95e7f-0712-42a6-95f2-d4a677cbde33" SourceId="1" SourceUrl="http://localhost:8733/RISIQueryService/meta?xsd=xsd2" />
+    <MetadataFile FileName="meta1.xsd" MetadataType="Schema" ID="9686a4db-3492-434e-b04f-f8c4521ca8b7" SourceId="1" SourceUrl="http://localhost:8733/RISIQueryService/meta?xsd=xsd1" />
+    <MetadataFile FileName="meta3.xsd" MetadataType="Schema" ID="15d4aab4-ec9f-435c-8a20-e7df84ed4edf" SourceId="1" SourceUrl="http://localhost:8733/RISIQueryService/meta?xsd=xsd3" />
+    <MetadataFile FileName="RISIQueryClass.wsdl" MetadataType="Wsdl" ID="2b452ab5-afac-4782-ad42-113b2f58b12d" SourceId="1" SourceUrl="http://localhost:8733/RISIQueryService/meta" />
+    <MetadataFile FileName="meta.xsd" MetadataType="Schema" ID="890b68a2-4068-4942-a6c5-e0d6969f9f14" SourceId="1" SourceUrl="http://localhost:8733/RISIQueryService/meta?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
